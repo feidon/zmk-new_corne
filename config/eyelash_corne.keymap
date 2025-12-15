@@ -24,6 +24,9 @@
 #define LT2_SLA &lt 2 SLASH
 #define ATL_UP &kp LA(UP)
 #define ATL_DOWN &kp LA(DOWN)
+#define GUI_F8 &mt RGUI F8
+#define ALT_F7 &mt RALT F7
+#define SFT_F6 &mt RSHFT F6
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
@@ -200,7 +203,7 @@
             display-name = "Fn";
             bindings = <
 &trans  &kp GRAVE   &kp HOME   &kp UP     &kp END    &kp PG_UP                        &mmv MOVE_UP                    &kp F1  &kp F2  &kp F3   &kp F4   &kp BSLH  &trans
-&trans  &bt BT_CLR  &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN         &mmv MOVE_LEFT &mkp LCLK      &mmv MOVE_RIGHT  &kp F5  &kp F6  &kp F7   &kp F8   &kp LCTRL &trans
+&trans  &trans      &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN         &mmv MOVE_LEFT &mkp LCLK      &mmv MOVE_RIGHT  &kp F5  SFT_F6  ALT_F7   GUI_F8   &kp LCTRL &trans
 &trans  &trans      &trans     ATL_DOWN   ATL_UP     &trans     &trans                &mmv MOVE_DOWN                  &kp F9  &kp F10 &kp F11  &kp F12  &trans  &trans
                                &trans     &trans     &trans                                                           &trans  &trans  &trans
             >;
