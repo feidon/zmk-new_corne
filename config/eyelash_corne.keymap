@@ -28,6 +28,40 @@
 #define ALT_F7 &mt RALT F7
 #define SFT_F6 &mt RSHFT F6
 
+// Bluetooth shortcuts
+#define BCLR &bt BT_CLR
+#define BSEL0 &bt BT_SEL 0
+#define BSEL1 &bt BT_SEL 1
+#define BSEL2 &bt BT_SEL 2
+#define BSEL3 &bt BT_SEL 3
+
+// Output toggle
+#define OTOG &out OUT_TOG
+
+// RGB controls
+#define RTOG &rgb_ug RGB_TOG
+#define REFF &rgb_ug RGB_EFF
+#define REFR &rgb_ug RGB_EFR
+#define RHUI &rgb_ug RGB_HUI
+#define RHUD &rgb_ug RGB_HUD
+#define RSAI &rgb_ug RGB_SAI
+#define RSAD &rgb_ug RGB_SAD
+#define RBRI &rgb_ug RGB_BRI
+#define RBRD &rgb_ug RGB_BRD
+#define RSPI &rgb_ug RGB_SPI
+#define RSPD &rgb_ug RGB_SPD
+
+// Media controls
+#define VOLUP &kp C_VOL_UP
+#define VOLDN &kp C_VOL_DN
+#define MUTE &kp C_MUTE
+
+// System
+#define BTLD &bootloader
+
+// Transparent key
+#define ________ &trans
+
 &soft_off { hold-time-ms = <2000>; };
 
 / {
@@ -149,40 +183,40 @@
         default_layer {
             display-name = "BASE";
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E   &kp R      &kp T                     &trans           &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
-CTL_TAB    CTL_A  GUI_S  ALT_D   SFT_F      &kp G             &trans  &trans  &trans   &kp H    SFT_J  ALT_K      GUI_L    CTL_SEMI  &kp ENTER
-&kp LSHFT  LT2_Z  &kp X  &kp C   &kp V      &kp B      &trans         &trans           &kp N    &kp M  &kp COMMA  &kp DOT  LT2_SLA   &kp RSHFT
-                         &mo 3   &kp ENTER  &kp SPACE                                  &mo 1  &kp BSPC   &mo 3
+&kp ESC     &kp Q  &kp W  &kp E    &kp R      &kp T                          ________  &kp Y     &kp U     &kp I       &kp O     &kp P      &kp BSPC
+CTL_TAB     CTL_A  GUI_S  ALT_D    SFT_F      &kp G      ________  ________  ________  &kp H     SFT_J     ALT_K       GUI_L     CTL_SEMI   &kp ENTER
+&kp LSHFT   LT2_Z  &kp X  &kp C    &kp V      &kp B      ________            ________  &kp N     &kp M     &kp COMMA   &kp DOT   LT2_SLA    &kp RSHFT
+                          &mo 3    &kp ENTER  &kp SPACE                                &mo 1     &kp BSPC  &mo 3
             >;
         };
 
         lower_layer {
             display-name = "NUM";
             bindings = <
-&trans  &kp N1   &kp N2   &kp N3   &kp N4   &kp N5                    &trans           &kp N6    &kp N7    &kp N8    &kp N9   &kp N0      &trans
-&trans  &td0     &td1     &td2     &td3     &kp PRCNT         &trans  &trans  &trans   &kp CARET &td4      &td5      &td6     &td7        &trans
-&trans  &kp LBRC &kp RBRC &kp LBKT &kp RBKT &kp DQT   &trans          &trans           &kp SQT   &kp UNDER &kp MINUS &kp PLUS &kp EQUAL   &trans
-                          &trans   &trans   &kp DEL                                    &trans    &trans    &trans
+________  &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                         ________  &kp N6     &kp N7     &kp N8     &kp N9    &kp N0     ________
+________  &td0      &td1      &td2      &td3      &kp PRCNT  ________  ________  ________  &kp CARET  &td4       &td5       &td6      &td7       ________
+________  &kp LBRC  &kp RBRC  &kp LBKT  &kp RBKT  &kp DQT    ________            ________  &kp SQT    &kp UNDER  &kp MINUS  &kp PLUS  &kp EQUAL  ________
+                              ________  ________  &kp DEL                                  ________   ________   ________
             >;
         };
 
         raise_layer {
             display-name = "Fn";
             bindings = <
-&trans  &kp GRAVE   &kp HOME   &kp UP     &kp END    &kp PG_UP                 &trans          &kp F1  &kp F2  &kp F3   &kp F4   &kp BSLH  &trans
-&trans  &trans      &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN          &trans &trans &trans   &kp F5  SFT_F6  ALT_F7   GUI_F8   &kp LCTRL &trans
-&trans  &trans      &trans     ATL_DOWN   ATL_UP     &trans     &trans         &trans          &kp F9  &kp F10 &kp F11  &kp F12  &trans    &trans
-                               &trans     &trans     &trans                                    &trans  &trans  &trans
+________  &kp GRAVE  &kp HOME  &kp UP    &kp END    &kp PG_UP                      ________  &kp F1   &kp F2   &kp F3   &kp F4   &kp BSLH   ________
+________  &kp CAPS   &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN  ________  ________  ________  &kp F5   SFT_F6   ALT_F7   GUI_F8   &kp LCTRL  ________
+________  ________   ________  ATL_DOWN  ATL_UP     ________   ________            ________  &kp F9   &kp F10  &kp F11  &kp F12  ________   ________
+                               ________  ________   ________                                 ________  ________  ________
             >;
         };
 
         layer_3 {
             display-name = "MEDIA";
             bindings = <
-&bootloader  &trans        &trans        &trans        &trans        &trans                     &trans         &rgb_ug RGB_TOG &trans  &trans  &trans  &trans  &kp C_VOL_UP
-&trans       &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3        &trans &trans &trans  &rgb_ug RGB_EFF &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI &kp C_VOL_DN
-&out OUT_TOG    &trans  &trans  &trans        &trans        &trans       &trans        &trans         &rgb_ug RGB_EFR &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD &kp C_MUTE
-                                         &trans        &trans        &trans                                    &trans          &trans          &trans
+BTLD      ________  ________  ________  ________  ________                      ________  RTOG      ________  ________  ________  ________  VOLUP
+________  BCLR      BSEL0     BSEL1     BSEL2     BSEL3     ________  ________  ________  REFF      RHUI      RSAI      RBRI      RSPI      VOLDN
+OTOG      ________  ________  ________  ________  ________  ________            ________  REFR      RHUD      RSAD      RBRD      RSPD      MUTE
+                              ________  ________  ________                                ________  ________  ________
             >;
         };
     };
