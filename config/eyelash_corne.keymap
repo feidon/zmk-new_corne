@@ -22,8 +22,8 @@
 #define SFT_J &mt RSHFT J
 #define LT2_Z &lt 2 Z
 #define LT2_SLA &lt 2 SLASH
-#define ATL_UP &LA(UP)
-#define ATL_DOWN &LA(DOWN)
+#define ATL_UP &kp LA(UP)
+#define ATL_DOWN &kp LA(DOWN)
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
