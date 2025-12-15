@@ -1,6 +1,6 @@
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: eyeslash_corne_central_dongle dongle_display
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
@@ -9,5 +9,5 @@ include:
     shield: nice_view_custom
   - board: eyelash_corne_left
     shield: nice_view_custom
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: settings_reset 
