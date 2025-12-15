@@ -64,19 +64,19 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
+  - '&td0'
+  - '&td1'
+  - '&td2'
+  - '&td3'
   - '%'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - ^
-  - '&'
-  - '*'
-  - (
-  - )
+  - '&td4'
+  - '&td5'
+  - '&td6'
+  - '&td7'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '{'
