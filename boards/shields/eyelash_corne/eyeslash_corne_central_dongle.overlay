@@ -13,7 +13,6 @@
         zmk,kscan = &mock_kscan;
         zephyr,display = &oled;
         zmk,battery = &vbatt;
-        
         zmk,physical-layout = &default_layout;
     };
 
