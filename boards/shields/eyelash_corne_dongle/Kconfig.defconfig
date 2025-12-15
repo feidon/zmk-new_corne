@@ -1,7 +1,7 @@
-if SHIELD_CORNE_DONGLE
+if SHIELD_EYELASH_CORNE_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "Corne Dongle"
+    default "Eyelash Corne Dongle"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
