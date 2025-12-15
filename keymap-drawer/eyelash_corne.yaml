@@ -113,7 +113,7 @@ layers:
   - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -122,9 +122,9 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - F5
-  - F6
-  - F7
-  - F8
+  - {t: F6, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F7, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F8, h: RGUI}
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
