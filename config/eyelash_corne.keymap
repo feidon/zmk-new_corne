@@ -49,7 +49,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <&TAP_TERM>;
+            tapping-term-ms = <TAP_TERM>;
             bindings = <&kp>, <&kp>;
             display-name = "Mod-Tap";
         };
@@ -58,7 +58,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <&TAP_TERM>;
+            tapping-term-ms = <TAP_TERM>;
             bindings = <&mo>, <&kp>;
             display-name = "Layer-Tap";
         };
@@ -67,7 +67,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "TD 0";
             #binding-cells = <0>;
-            tapping-term-ms = <&TAP_TERM>;
+            tapping-term-ms = <TAP_TERM>;
             bindings = <&mt LCTRL EXCL>;
         };
 
@@ -75,7 +75,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "TD 1";
             #binding-cells = <0>;
-            tapping-term-ms = <&TAP_TERM>;
+            tapping-term-ms = <TAP_TERM>;
             bindings = <&mt LGUI AT>;
         };
 
@@ -83,7 +83,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "TD 2";
             #binding-cells = <0>;
-            tapping-term-ms = <&TAP_TERM>;
+            tapping-term-ms = <TAP_TERM>;
             bindings = <&mt LALT POUND>;
         };
 
@@ -91,7 +91,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "TD 3";
             #binding-cells = <0>;
-            tapping-term-ms = <&TAP_TERM>;
+            tapping-term-ms = <TAP_TERM>;
             bindings = <&mt LSHFT DLLR>;
         };
 
@@ -99,7 +99,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "TD 4";
             #binding-cells = <0>;
-            tapping-term-ms = <&TAP_TERM>;
+            tapping-term-ms = <TAP_TERM>;
             bindings = <&mt RSHFT AMPS>;
         };
 
@@ -107,7 +107,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "TD 5";
             #binding-cells = <0>;
-            tapping-term-ms = <&TAP_TERM>;
+            tapping-term-ms = <TAP_TERM>;
             bindings = <&mt RALT STAR>;
         };
 
@@ -115,7 +115,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "TD 6";
             #binding-cells = <0>;
-            tapping-term-ms = <&TAP_TERM>;
+            tapping-term-ms = <TAP_TERM>;
             bindings = <&mt RGUI LPAR>;
         };
 
@@ -123,7 +123,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "TD 7";
             #binding-cells = <0>;
-            tapping-term-ms = <&TAP_TERM>;
+            tapping-term-ms = <TAP_TERM>;
             bindings = <&mt RSHFT RPAR>;
         };
     };
