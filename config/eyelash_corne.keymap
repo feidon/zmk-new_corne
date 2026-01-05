@@ -145,7 +145,7 @@
             display-name = "TD 7";
             #binding-cells = <0>;
             tapping-term-ms = <TAP_TERM>;
-            bindings = <&mt RSHFT RPAR>;
+            bindings = <&mt RCTRL RPAR>;
         };
     };
 
