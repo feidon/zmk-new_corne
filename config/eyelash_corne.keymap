@@ -24,9 +24,6 @@
 #define LT2_SLA &lt 2 SLASH
 #define ATL_UP &kp LA(UP)
 #define ATL_DOWN &kp LA(DOWN)
-#define GUI_F8 &mt RGUI F8
-#define ALT_F7 &mt RALT F7
-#define SFT_F6 &mt RSHFT F6
 
 // Bluetooth shortcuts
 #define BCLR &bt BT_CLR
@@ -204,9 +201,9 @@ ________  &kp LBRC  &kp RBRC  &kp LBKT  &kp RBKT  &kp DQT    ________           
             display-name = "Fn";
             bindings = <
 ________  &kp GRAVE  &kp HOME  &kp UP    &kp END    &kp PG_UP                      ________  &kp F1   &kp F2   &kp F3   &kp F4   &kp BSLH   ________
-________  &kp CAPS   &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN  ________  ________  ________  &kp F5   SFT_F6   ALT_F7   GUI_F8   &kp LCTRL  ________
-________  ________   ________  ATL_DOWN  ATL_UP     ________   ________            ________  &kp F9   &kp F10  &kp F11  &kp F12  ________   ________
-                               ________  ________   ________                                 ________  ________  ________
+&kp LCTRL &kp CAPS   &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN  ________  ________  ________  &kp F5   &kp F6   &kp F7   &kp F8   ________   &kp RCTRL
+&kp LSHFT ________   ________  ATL_DOWN  ATL_UP     ________   ________            ________  &kp F9   &kp F10  &kp F11  &kp F12  ________   &kp RSHFT
+                               &kp LGUI  &kp LALT   ________                                 ________ &kp RALT &kp RGUI
             >;
         };
 
