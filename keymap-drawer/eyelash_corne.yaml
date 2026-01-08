@@ -112,7 +112,7 @@ layers:
   - F4
   - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -122,12 +122,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F5
-  - {t: F6, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: F7, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: F8, h: RGUI}
+  - F6
+  - F7
+  - F8
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+$$mdi:arrow-down-bold$$
@@ -140,13 +140,13 @@ layers:
   - F11
   - F12
   - {type: held alternate}
+  - $$mdi:apple-keyboard-shift$$
+  - LGUI
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-option$$
+  - RGUI
   MEDIA:
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
