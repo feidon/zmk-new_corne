@@ -22,8 +22,8 @@
 #define SFT_J &mt RSHFT J
 #define LT2_Z &lt 2 Z
 #define LT2_SLA &lt 2 SLASH
-#define TAB_L &kp LA(LG(LEFT))
-#define TAB_R &kp LA(LG(RIGHT))
+#define TAB_L &kp LA(LC(LEFT))
+#define TAB_R &kp LA(LC(RIGHT))
 #define ATL_UP &kp LA(UP)
 #define ATL_DOWN &kp LA(DOWN)
 #define GUI_F8 &mt RGUI F8
