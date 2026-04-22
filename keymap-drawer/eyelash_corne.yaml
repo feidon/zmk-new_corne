@@ -128,8 +128,8 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
-  - {t: 'Alt+Gui+$$mdi:arrow-left-bold$$', type: held}
-  - Alt+Gui+$$mdi:arrow-right-bold$$
+  - {t: 'Alt+Ctl+$$mdi:arrow-left-bold$$', type: held}
+  - Alt+Ctl+$$mdi:arrow-right-bold$$
   - Alt+$$mdi:arrow-down-bold$$
   - Alt+$$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
